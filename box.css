@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    background-color: rgb(111, 26, 196);
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0px;
+}
+.navbar__title{
+    background-color: aqua;
+}
+.navbar__lists{
+    background-color: aquamarine;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.btn{
+    background-color: blue;
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: none;
+}
+
+.banner{
+    width: 100%;
+    height: 600px;
+    background-color:blueviolet ;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+.banner  div{
+    width: 300px;
+    height: 300px;
+    
+    background-color: blue;
+    
+}
+.contanier{
+    width: 100%;
+    height: 400px;
+    background-color: blue;
+    padding: 80px;
+    justify-content: center;
+   
+    
+}
+.contanier div{
+    width: 600px;
+    height: 200px;
+    background-color: rgb(131, 5, 250);
+    margin:auto;
+
+
+}
+.boxes{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    margin: 60px;
+    padding: 30px;
+    margin: auto;
+    background-color: rgb(53, 63, 60);
+    gap: 600px;
+    align-items: center;
+    justify-content: center;
+
+}
+    .boxs{
+        width:300px;
+        height: 300px; 
+        background-color: blue;
+    }
+
+.grid-contanier{
+
+    width: 300px;
+    height: 300px;   
+    display: grid;
+   
+    column-gap: 50px;
+    row-gap: 50px;
+    grid-template-columns: auto auto ;
+   
+    
+    }
+ .grid-item {
+    widt
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 10px;
+        background-color: blue;
+      }
+.cont{
+    width: 100%;
+    height: 600px;
+    background-color:blueviolet ;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+.cont  div{
+    width: 300px;
+    height: 300px;
+    
+    background-color: blue; 
+
+}
+.clc{
+    width: 100%;
+    height: 300px;
+    background-color:blue;
+    padding: 50px;
+  
+}
+.cell{
+    width: 200px;
+    height: 200px;
+    background-color: azure;
+    margin-left: 300px;
+}
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color:black;
+    padding: 100px;
+}
+.foot{
+    width: 200px;
+    height: 80px;
+     margin: auto;
+   
+    background-color:white;
+}
